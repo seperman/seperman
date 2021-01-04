@@ -1,5 +1,6 @@
 # [Zepworks](https://zepworks.com)
-## [DeepDiff 5.2.1 Is Released and it comes with the new commandline feature!](https://zepworks.com/posts/deepdiff-tutorial-commandline/)
+## DeepDiff 5.2.1 Is Released
+[It comes with the new commandline feature!](https://zepworks.com/posts/deepdiff-tutorial-commandline/)
 
 
 <!--
