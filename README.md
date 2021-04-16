@@ -1,6 +1,6 @@
 # [Zepworks](https://zepworks.com)
-## DeepDiff 5.2.1 Is Released
-[It comes with the new commandline feature!](https://zepworks.com/posts/deepdiff-tutorial-commandline/)
+## DeepDiff 5.3.0 Is Released
+Now you can [grep through data with regex](https://zepworks.com/deepdiff/current/#what-is-new)
 
 
 <!--
