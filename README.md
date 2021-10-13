@@ -1,7 +1,8 @@
 # [Zepworks](https://zepworks.com)
-## DeepDiff 5.5.0 Is Released
-- Now you can [provide custom compare functions](https://zepworks.com/deepdiff/current/#what-is-new)
-- You can also [grep through data with regex](https://zepworks.com/deepdiff/current/#what-is-new)
+
+## DeepDiff 5.6.0 Is Released
+- Now you can [create custom operators!](https://zepworks.com/deepdiff/current/index.html#new-in-deepdiff-5-6-0)
+- You can also use [Dynamic ignore order function](https://zepworks.com/deepdiff/current/index.html#new-in-deepdiff-5-6-0)
 
 
 <!--
