@@ -4,16 +4,14 @@ Please check out my blog, [Zepworks](https://zepworks.com), for articles that I 
 
 # Updates
 
-## I released DeepDiff 6.2.1 on October 17 2022!
+## DeepDiff 6.2.3  Jan 05 2023
 
-It includes significant improvement to diffing algorithm when dealing with lists of hashable items where the order of items is important.
+We switch to orjson for performance improvement! If you use a lot of DeepDiff Delta objects like I do and store them in the database as json blobs, orjson will improve the serialization performance dramatically.
 
-If you want immediate notice when I publish a new release, please follow me on Twitter: (https://twitter.com/sep_dehpour). 
+## ⚡ Fun fact
 
-## I released Redisworks 0.4.0 on Nov 5 2022!
+We went to Colorado for the last two weeks of the year. The temperature was -23 F one night. It was a shock for us who live in Los Angeles. Same night LA was 70 F! But skiing was worth it.
 
-It supports Python 10, and 11 now!
-Also, you can pass `ttl` to it via the `with_ttl` helper.
 
 <!--
 **seperman/seperman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
