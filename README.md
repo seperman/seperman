@@ -4,7 +4,7 @@ Please check out my blog, [Zepworks](https://zepworks.com), for articles that I 
 
 # Updates
 
-## DeepDiff 6.2.3  Jan 05 2023
+## DeepDiff 6.3.0  March 17 2023
 
 We switch to orjson for performance improvement! If you use a lot of DeepDiff Delta objects like I do and store them in the database as json blobs, orjson will improve the serialization performance dramatically.
 
