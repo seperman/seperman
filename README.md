@@ -4,14 +4,19 @@ Please check out my blog, [Zepworks](https://zepworks.com), for articles that I 
 
 # Updates
 
-## DeepDiff 6.3.0  March 17 2023
+## DeepDiff 6.4.1 Aug 31 2023
 
-We switch to orjson for performance improvement! If you use a lot of DeepDiff Delta objects like I do and store them in the database as json blobs, orjson will improve the serialization performance dramatically.
+Kodus to the contributors:
+
+- [Add Ignore List Order Option to DeepHash](https://github.com/seperman/deepdiff/pull/403) by 
+[Bobby Morck](https://github.com/bmorck)
+- [pyyaml to 6.0.1 to fix cython build problems](https://github.com/seperman/deepdiff/pull/406) by [Robert Bo Davis](https://github.com/robert-bo-davis)
+- [Precompiled regex simple diff](https://github.com/seperman/deepdiff/pull/413) by [cohml](https://github.com/cohml)
+- New flag: `zip_ordered_iterables` for forcing iterable items to be compared one by one. 
 
 ## ⚡ Fun fact
 
-We went to Colorado for the last two weeks of the year. The temperature was -23 F one night. It was a shock for us who live in Los Angeles. Same night LA was 70 F! But skiing was worth it.
-
+Try drinking olive oil if you are too hungry. I am, as I write this.
 
 <!--
 **seperman/seperman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
