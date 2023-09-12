@@ -4,6 +4,13 @@ Please check out my blog, [Zepworks](https://zepworks.com), for articles that I 
 
 # Updates
 
+## DeepDiff 6.5.0 Sep 11 2023
+
+I took a look at Stackoverflow questions on DeepDiff and found this gem from 2016 that had 6k+ views:
+<https://stackoverflow.com/q/39595934/1497443>
+
+It took a couple of lines of code to make the `parse_path` function. I thought that was a solved problem.
+
 ## DeepDiff 6.4.1 Aug 31 2023
 
 Kodus to the contributors:
