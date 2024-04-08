@@ -1,25 +1,20 @@
 Hello! And welcome to my page.
 
+If you deal with dirty data that is entered by humans (i.e., customer data or product data), I am building a tool for it: [Qluster](https://qluster.ai). Please ping me, and I will set you up with an account. I would love to hear your feedback!
+
 Please check out my blog, [Zepworks](https://zepworks.com), for articles that I may publish from time to time.
+
 
 # Updates
 
-## DeepDiff 6.5.0 Sep 11 2023
+## DeepDiff 7.0.0 - Apr 8 2024
 
-I took a look at Stackoverflow questions on DeepDiff and found this gem from 2016 that had 6k+ views:
-<https://stackoverflow.com/q/39595934/1497443>
+- DeepDiff 7 comes with an improved delta object. [Delta to flat dictionaries](https://zepworks.com/deepdiff/current/serialization.html#delta-serialize-to-flat-dictionaries) have undergone a major change. We have also introduced [Delta serialize to flat rows](https://zepworks.com/deepdiff/current/serialization.html#delta-serialize-to-flat-rows).
+- Subtracting delta objects have dramatically improved at the cost of holding more metadata about the original objects.
+- When `verbose=2`, and the "path" of an item has changed in a report between t1 and t2, we include it as `new_path`.
+- `path(use_t2=True)` returns the correct path to t2 in any reported change in the [`tree view`](https://zepworks.com/deepdiff/current/view.html#tree-view)
+- Python 3.7 support is dropped and Python 3.12 is officially supported.
 
-It took a couple of lines of code to make the `parse_path` function. I thought that was a solved problem.
-
-## DeepDiff 6.4.1 Aug 31 2023
-
-Kodus to the contributors:
-
-- [Add Ignore List Order Option to DeepHash](https://github.com/seperman/deepdiff/pull/403) by 
-[Bobby Morck](https://github.com/bmorck)
-- [pyyaml to 6.0.1 to fix cython build problems](https://github.com/seperman/deepdiff/pull/406) by [Robert Bo Davis](https://github.com/robert-bo-davis)
-- [Precompiled regex simple diff](https://github.com/seperman/deepdiff/pull/413) by [cohml](https://github.com/cohml)
-- New flag: `zip_ordered_iterables` for forcing iterable items to be compared one by one. 
 
 ## ⚡ Fun fact
 
