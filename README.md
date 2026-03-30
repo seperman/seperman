@@ -1,11 +1,11 @@
-Hello!
+Sep Dehpour — software engineer based in Los Angeles.
 
-My name is Sep. Welcome to my page!
+Creator of [DeepDiff](https://github.com/seperman/deepdiff), a Python library for deep comparison of objects with 70M+ monthly downloads from PyPI.
 
-**If you deal with dirty data that is entered by humans (i.e., customer data or product data), I am building a tool for it: [Qluster](https://qluster.ai). Please ping me, and I will set you up with an account. I would love to hear your feedback!**
+Founder of [Qluster](https://getqluster.com), helping teams resolve bad submission data under contractual or regulatory constraints before release.
 
-Please check out my blog, [Zepworks](https://zepworks.com), for articles that I may publish from time to time.
+When he's not wrestling with data or climbing rocks, he's doing dad things and daydreaming about more sleep.
 
-## Fun fact
-
-I used to be outdoors every weekend (climbing/skiing/biking). Now I optimize rare escape missions.
+- hello @ zepworks.com
+- [GitHub](https://github.com/seperman/)
+- [LinkedIn](https://linkedin.com/in/sepehr)
